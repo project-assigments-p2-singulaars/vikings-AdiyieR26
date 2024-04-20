@@ -63,7 +63,7 @@ En este caso, el test dice que  _Soldier constructor function should receive 2 a
 ```javascript
 // Soldier
 class Soldier{
-  constructor(healthArg, strengthArg) {}
+  constructor(6) {}
 }
 ```
 
@@ -96,7 +96,7 @@ Modifica la clase `Soldier`y añade dos métodos `attack()` y `receiveDamage()`.
 - debe devolver **la propiedad `strength` del `Soldier`**
 
 #### método `receiveDamage()`
-
+ 
 - debe ser una función
 - debe recibir **1 argumento** (-*damage*-)
 - debe substraer el daño recibido de la propiedad `health`
